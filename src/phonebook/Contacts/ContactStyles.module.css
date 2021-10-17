@@ -1,0 +1,62 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+
+    border: 1px solid black;
+}
+
+.label {
+    font-family: montserrat;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.inputName {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.inputTel {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-family: montserrat;
+    font-weight: 400;
+    width: 100px;
+}
+
+.delBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 900;
+    color: white;
+    border-radius: 50%;
+    min-width: 20px;
+    min-height: 20px;
+    background-color: rgb(201, 4, 4);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.contactsList {
+    font-family: montserrat;
+    font-weight: 400;
+}
+
+.contactsListItem:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.contactsListItem {
+    display: flex;
+    width: 250px;
+}
